@@ -6,7 +6,7 @@ import BasicCard from "../BasicCard/BasicCard";
 const basicInfoImage = "./basic-image.JPG";
 const projectImage = "./project.jpg";
 const dayreImage = "./dayre.png";
-const meImage = "./me.jpg";
+const friendsImage = "./friends.JPG";
 
 const bull = (
   <Box
@@ -36,7 +36,7 @@ export default function BasicInfo() {
         </ImageBox>
         <BasicCard section={"experiences"} />
         <ImageBox>
-          <Image src={require(`${meImage}`)} alt="Image 4" />
+          <Image src={require(`${friendsImage}`)} alt="Image 4" />
         </ImageBox>
         <BasicCard section={"me"} />
       </StyledBox>

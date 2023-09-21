@@ -279,6 +279,7 @@ const BasicCard: React.FC<TSection> = ({ section }) => {
                   alignItems: "center",
                   justifyContent: "center",
                   gap: "20px",
+                  paddingTop: "10px",
                 }}
               >
                 <Link href="mailto:elynn@duck.com" color="inherit">

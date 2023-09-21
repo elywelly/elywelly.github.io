@@ -40,3 +40,13 @@ export const StyledButton = styled(Button)`
     background: linear-gradient(-22.5deg, #188c81 0%, #65cebd 100%);
   }
 `;
+
+export const RoundImage = styled.img`
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+
+  @media only screen and (max-width: 745px) {
+    max-width: 100px;
+  }
+`;
