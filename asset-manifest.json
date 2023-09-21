@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a52b2102.css",
+    "main.js": "/static/js/main.bc2e2494.js",
+    "static/media/me.jpg": "/static/media/me.bc133d0ae203f2118c87.jpg",
+    "static/media/friends.JPG": "/static/media/friends.d75f1c279e9b8eb984fe.JPG",
+    "static/media/dayre.png": "/static/media/dayre.db1ab893d81daa418dca.png",
+    "static/media/project.jpg": "/static/media/project.520c6fd60628f9415425.jpg",
+    "static/media/basic-image.JPG": "/static/media/basic-image.5d5301d2b1b922999e20.JPG",
+    "index.html": "/index.html",
+    "main.a52b2102.css.map": "/static/css/main.a52b2102.css.map",
+    "main.bc2e2494.js.map": "/static/js/main.bc2e2494.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a52b2102.css",
+    "static/js/main.bc2e2494.js"
+  ]
+}
