@@ -27,7 +27,7 @@ const style = {
 };
 
 const logo = "./kiki-logo.jpeg";
-const me = "./me.jpg";
+const me = "./me-min.jpg";
 
 export default function AppBar() {
   const [open, setOpen] = useState(false);

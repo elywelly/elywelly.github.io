@@ -3,10 +3,10 @@ import { StyledFont } from "../AppBar/AppBar.style";
 import { Container, Image, ImageBox, StyledBox } from "./BasicInfo.style";
 import BasicCard from "../BasicCard/BasicCard";
 
-const basicInfoImage = "./basic-image.JPG";
-const projectImage = "./project.jpg";
+const basicInfoImage = "./main.jpg";
+const projectImage = "./project-min.jpg";
 const dayreImage = "./dayre.png";
-const friendsImage = "./friends.JPG";
+const friendsImage = "./friends-min.JPG";
 
 const bull = (
   <Box
