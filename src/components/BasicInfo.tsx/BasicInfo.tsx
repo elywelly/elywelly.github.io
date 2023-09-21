@@ -5,6 +5,8 @@ import BasicCard from "../BasicCard/BasicCard";
 
 const basicInfoImage = "./basic-image.JPG";
 const projectImage = "./project.jpg";
+const dayreImage = "./dayre.png";
+const meImage = "./me.jpg";
 
 const bull = (
   <Box
@@ -29,6 +31,14 @@ export default function BasicInfo() {
           <Image src={require(`${projectImage}`)} alt="Image 2" />
         </ImageBox>
         <BasicCard section={"projects"} />
+        <ImageBox>
+          <Image src={require(`${dayreImage}`)} alt="Image 3" />
+        </ImageBox>
+        <BasicCard section={"experiences"} />
+        <ImageBox>
+          <Image src={require(`${meImage}`)} alt="Image 4" />
+        </ImageBox>
+        <BasicCard section={"me"} />
       </StyledBox>
     </Container>
   );

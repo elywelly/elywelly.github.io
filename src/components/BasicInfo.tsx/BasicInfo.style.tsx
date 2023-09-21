@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import styled from "styled-components";
 
@@ -25,6 +26,22 @@ export const ImageBox = styled(Box)`
   && {
     padding: 5px 0px;
     margin: 0 auto;
+  }
+`;
+
+export const BoldFont = styled.span`
+  && {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+  }
+`;
+
+export const BoldHeading = styled(Typography)`
+  && {
+    color: rgb(32, 165, 152);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
   }
 `;
 
